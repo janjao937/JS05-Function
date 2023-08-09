@@ -1,23 +1,47 @@
 
 printPrime(100);
 
-function printPrime(range)
+function printPrime(range)//print
 {
-    let isPrime = true;
-    for(let i = 2;i<=range;i++)
+    for(let i = 2 ; i<= range;i++)
     {
-        isPrime = true;
-        for(let j = 2;j<= Math.sqrt(i);j++)
+        checkPrime(i);
+    }
+}
+function checkPrime(num)//check
+{   
+    let isPrime = true;
+    for(let j = 2;j<= Math.sqrt(num);j++)
         {
-            if(i%j === 0)
+            if(num%j === 0)
             {
                 //Not Prime
-                isPrime = 0;
+                isPrime = false;
+                break;
             }
         }
-
-        if(isPrime) console.log(i);
-    }
-
-
+    if(isPrime) console.log(num);
 }
+
+// function printPrime(range)
+// {
+//     let isPrime = true;
+//     for(let i = 2;i<=range;i++)
+//     {
+//         //isPrime = true;
+//         for(let j = 2;j<= Math.sqrt(i);j++)
+//         {
+//             if(i%j === 0)
+//             {
+//                 //Not Prime
+//                 isPrime = false;
+//                 break;
+//             }
+//         }
+
+        
+//     }
+
+
+// }
+
