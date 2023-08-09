@@ -3,28 +3,25 @@ printPrime(100);
 
 function printPrime(range)//print
 {
-    for(let i = 2 ; i<= range;i++)
+    for (let i = 2; i <= range; i++) 
     {
-        //checkPrime(i);
-        if(checkPrime(i))
+        if (checkPrime(i)) 
         {
             console.log(i);
         }
     }
 }
 function checkPrime(num)//check
-{   
-   // let isPrime = true;
-    for(let j = 2;j<= Math.sqrt(num);j++)
+{
+    for (let j = 2; j <= Math.sqrt(num); j++) 
+    {
+        if (num % j === 0) 
         {
-            if(num%j === 0)
-            {
-                //Not Prime
-                return false;
-                
-            }
+            //Not Prime
+            return false;
         }
-   return true;
+    }
+    return true;
 }
 
 // function printPrime(range)

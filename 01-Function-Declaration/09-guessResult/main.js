@@ -1,1 +1,1 @@
-//ไม่มีผลลัพธ์ เพราะ return ตั้งแต่เริ่ม function
+//undifined เพราะ return ตั้งแต่เริ่ม function

@@ -33,6 +33,13 @@ function checkAge(age) {
   }
 
 function checkAge(age) {
-    let isKid = (age>18)?true: confirm("Did parents allow you?");
+    let isKid = (age>18)? true:false; confirm("Did parents allow you?");
     return isKid;
   }
+
+  
+
+  // function checkAge(age)
+  // {
+    
+  // }

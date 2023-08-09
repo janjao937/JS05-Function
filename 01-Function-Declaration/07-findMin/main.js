@@ -24,5 +24,5 @@ function findMax(...args)
     console.log(max);
 }
 
-findMax(15,9,100);
+findMax(15,9,100,50);
 findMax();
