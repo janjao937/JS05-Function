@@ -9,7 +9,7 @@ function logMessage(message) {
 }
 
 logMessage(message);
-console.log(message); // **Hello everybody
+console.log(message); // **"Welcome to Thailand"
 ```
 
 ```js

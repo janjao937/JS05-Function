@@ -9,4 +9,4 @@ name = 'Pete';
 sayHi(); // *
 */
 
-//Hi, Pete
+//Hi, Pete 

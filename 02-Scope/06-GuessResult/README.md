@@ -19,5 +19,5 @@ function sendTo(to, from = 'CC') {
 }
 
 sendTo('Max'); // ***CC to Max
-sendTo('Ben', 'Jay'); // ****From Ben to Jay
+sendTo('Ben', 'Jay'); // ****From jay to ben
 ```
