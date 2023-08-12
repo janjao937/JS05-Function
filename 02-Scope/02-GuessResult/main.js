@@ -14,4 +14,4 @@ sayHi(); // *
 */
 
 
-//alert "Hello, John" return undifined 
+//alert "Hello, John" return undifined  เพราะ user = john
